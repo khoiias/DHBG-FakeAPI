@@ -1,37 +1,113 @@
 {
-    "recipes": [
+  "recipes": [
+    {
+      "articleCode": "167120",
+      "articleName": "ACTIEF 404 P",
+      "recipeId": 3188,
+      "recipeVersion": 0,
+      "recipeSubversion": 2,
+      "plantId": 5,
+      "quantity": 100,
+      "quantityUnit": "kg",
+      "itemType": "Bulk",
+      "productForm": "KO",
+      "itemBaseWeight": 0,
+      "itemBaseWeightUnit": "kg",
+      "salesOrderDocumentNumber": "",
+      "salesOrderElementNo": "",
+      "contaminationCode": "VAR004",
+      "physicalAnimalGroupCode": "60",
+      "isArchived": false,
+      "recipeElements": [
         {
-            "articleCode": "167120",
-            "articleName": "ACTIEF 404 P",
-            "recipeId": 3188,
-            "recipeVersion": 0,
-            "recipeSubversion": 2,
-            "plantId": 5,
-            "quantity": 100.000000,
-            "quantityUnit": "kg",
-            "itemType": "Bulk",
-            "productForm": "KO",
-            "itemBaseWeight": 0.000000,
-            "itemBaseWeightUnit": "kg",
-            "salesOrderDocumentNumber": "",
-            "salesOrderElementNo": "",
-            "contaminationCode": "VAR004",
-            "physicalAnimalGroupCode": "60",
-            "isArchived": false,
-            "recipeElements": [
-                {
-                    "articleCode": "167101",
-                    "articleName": "ACTIEF 4 Concentrate",
-                    "quantity": 70.000000,
-                    "addition": false
-                },
-                {
-                    "articleCode": "0044",
-                    "articleName": "TARWE",
-                    "quantity": 30.000000,
-                    "addition": false
-                }
-            ]
+          "articleCode": "167101",
+          "articleName": "ACTIEF 4 Concentrate",
+          "quantity": 70,
+          "addition": false
+        },
+        {
+          "articleCode": "0044",
+          "articleName": "TARWE",
+          "quantity": 30,
+          "addition": false
         }
-    ]
+      ]
+    }
+  ],
+  "salesOrders": [
+    {
+      "productionLocation": 7,
+      "orderState": "BN",
+      "salesOrderNumber": " SO0002234567",
+      "deliveryAddressAccountNumber": "015184",
+      "deliveryAddressName": "JANSSEN en zonen",
+      "deliveryAddressStreetNumber": "Kerkpad 17",
+      "mainCustomerAccountNumber": "015184",
+      "deliveryAddressZipcode": "3962BC",
+      "deliveryAddressCity": "Doorn",
+      "deliveryAddressPhoneNumber": "+313615048414",
+      "deliveryAddressRemark": "",
+      "externalOrderReference": " SO0002234567",
+      "labelLanguage": "nl",
+      "ubnNumber": "3456789",
+      "salesOrderLines": [
+        {
+          "salesOrderLineNumber": "TR987654321",
+          "plannedDeliveryDate": "2026-02-16T00:00:00.0000000+01:00",
+          "itemCodeCustomer": "505070",
+          "itemNameCustomer": "BLAUW",
+          "quantity": 10000,
+          "packingForm": "Blk",
+          "itemBaseWeight": 0,
+          "itemBaseWeightUnit": "kg",
+          "packageWeight": 20,
+          "bagType": "",
+          "countryOfDestination": "NL",
+          "numberOfContainers": 0,
+          "closingDateTime": "1900-01-01T00:00:00.0000000+01:00",
+          "expirationPeriod": 182,
+          "loadingInfo": "SO0002234567",
+          "itemCodeBase": "505070",
+          "unloadingSilos": []
+        }
+      ]
+    },
+    {
+      "productionLocation": 5,
+      "orderState": "BN",
+      "salesOrderNumber": " ORD000015142",
+      "deliveryAddressAccountNumber": "K100007",
+      "deliveryAddressName": "KIERNAN MILLING",
+      "deliveryAddressStreetNumber": "Ballinalee Road - Granardkill",
+      "mainCustomerAccountNumber": "K100429",
+      "deliveryAddressZipcode": "N39 C960",
+      "deliveryAddressCity": "Granard - Co Longford",
+      "deliveryAddressPhoneNumber": "+353615048414",
+      "deliveryAddressRemark": "",
+      "externalOrderReference": "ORD000015142",
+      "labelLanguage": "nl",
+      "ubnNumber": "",
+      "salesOrderLines": [
+        {
+          "salesOrderLineNumber": "TR987654321",
+          "plannedDeliveryDate": "2026-02-16T00:00:00.0000000+01:00",
+          "itemCodeCustomer": "945069-20 KG-KAN579-BLUE",
+          "itemNameCustomer": "Opticare Milk Active",
+          "quantity": 6000,
+          "packingForm": "20 KG",
+          "itemBaseWeight": 0,
+          "itemBaseWeightUnit": "kg",
+          "packageWeight": 20,
+          "bagType": "KAN579",
+          "countryOfDestination": "IE",
+          "numberOfContainers": 0,
+          "closingDateTime": "1900-01-01T00:00:00.0000000+01:00",
+          "expirationPeriod": 182,
+          "loadingInfo": "ORD000015142",
+          "itemCodeBase": "945069",
+          "unloadingSilos": []
+        }
+      ]
+    }
+  ]
 }
